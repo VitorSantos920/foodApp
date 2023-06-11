@@ -1,0 +1,53 @@
+@import "./variables";
+
+.c-main__home {
+    background: url("../../images/banner.png") center center no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 100px);
+    color: $imageTextColor;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: $titleFont;
+
+    .c-home__app-name {
+        font-size: $size * 3;
+    }
+
+    .c-home__title {
+        font-size: $size * 10;
+        line-height: $size * 10;
+        margin: $size * 4 0;
+    }
+
+    .c-home__cta {
+        h4 {
+            font-weight: 500;
+            font-size: $size * 3;
+            margin-bottom: $size * 8;
+        }
+
+        .c-home__btn {
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid #fff;
+            padding: $size * 1.75 $size * 8;
+            border-radius: $size * 5;
+            font-weight: bold;
+            font-size: $size * 4;
+            transition: 500ms;
+
+            &:last-child {
+                margin-left: $size;
+            }
+
+            &:hover {
+                border-color: $highlightColor;
+                background-color: $highlightColor;
+            }
+        }
+    }
+}
