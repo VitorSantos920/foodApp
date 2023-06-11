@@ -1,0 +1,28 @@
+.c-header {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 88%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem; }
+  .c-header__logo {
+    height: 155px; }
+  .c-header__menu-itens {
+    gap: 7rem;
+    list-style: none; }
+    .c-header__menu-itens li a {
+      color: #000; }
+      .c-header__menu-itens li a:hover {
+        color: #fa4a0c; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.flex {
+  display: flex; }
+
+a {
+  text-decoration: none; }

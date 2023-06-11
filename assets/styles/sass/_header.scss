@@ -1,0 +1,30 @@
+@import "./variables";
+
+.c-header {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 88%;
+    font-family: $textFont;
+    font-weight: bolder;
+    font-size: $size * 3;
+
+    &__logo {
+        height: 155px;
+    }
+
+    &__menu-itens {
+        gap: 7rem;
+        list-style: none;
+
+        li {
+            a {
+                color: #000;
+
+                &:hover {
+                    color: $highlightColor;
+                }
+            }
+        }
+    }
+}
