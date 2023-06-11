@@ -1,0 +1,46 @@
+@import "./variables";
+
+.c-main__how-works {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    h3,
+    h4 {
+        font-family: $titleFont;
+    }
+
+    > :first-child {
+        text-align: center;
+        font-size: $size * 7;
+        margin: ($size * 5) 0;
+    }
+
+    & > div {
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+        max-width: 1349px;
+
+        &:nth-child(3) img {
+            order: 2;
+        }
+
+        .content {
+            width: 45%;
+
+            h3 {
+                color: $highlightColor;
+            }
+
+            h4 {
+                font-size: $size * 5;
+            }
+
+            p {
+                font-family: $textFont;
+                font-size: $size * 3;
+            }
+        }
+    }
+}
