@@ -1,0 +1,15 @@
+@import "./variables";
+
+.c-main__img-overview {
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 60%;
+    border-bottom: $size * 0.2 solid gray;
+
+    img {
+        width: 70%;
+        max-width: 566px;
+        height: auto;
+    }
+}
