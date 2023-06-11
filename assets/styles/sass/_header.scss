@@ -7,14 +7,14 @@
     width: 88%;
     font-family: $textFont;
     font-weight: bolder;
-    font-size: $size * 3;
+    font-size: $size * 2;
 
     &__logo {
-        height: 155px;
+        height: 100px;
     }
 
     &__menu-itens {
-        gap: 7rem;
+        gap: 4.5rem;
         list-style: none;
 
         li {
