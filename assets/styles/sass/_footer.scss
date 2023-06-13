@@ -1,0 +1,15 @@
+@import "./variables";
+
+.c-footer {
+    justify-content: space-between;
+    align-items: center;
+    font-family: $textFont;
+    color: #5c5c5c;
+    font-weight: 700;
+    font-size: $size * 1.5;
+
+    svg {
+        height: 40px;
+        width: 40px;
+    }
+}

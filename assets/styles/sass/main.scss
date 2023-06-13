@@ -4,6 +4,7 @@
 @import "./img-overview";
 @import "./howworks";
 @import "./download";
+@import "./footer";
 
 * {
     margin: 0;
@@ -28,6 +29,7 @@ a {
     font-weight: bold;
     font-size: $size * 4;
     transition: 500ms;
+    cursor: pointer;
 
     &:last-child {
         margin-left: $size;
