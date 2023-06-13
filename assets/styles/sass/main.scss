@@ -40,3 +40,44 @@ a {
         border-color: $highlightColor;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .c-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .c-main__how-works {
+        gap: $size * 2;
+
+        div {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .c-header__menu-itens {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .c-main__home .c-home__title {
+        font-size: $size * 5;
+    }
+
+    .c-home__cta button {
+        margin-top: $size * 2;
+    }
+
+    .c-main__how-works {
+        div .content h4 {
+            font-size: $size * 3;
+        }
+    }
+
+    .c-footer {
+        flex-direction: column;
+        gap: $size * 2;
+    }
+}
