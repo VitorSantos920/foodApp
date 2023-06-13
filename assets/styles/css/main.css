@@ -96,6 +96,30 @@
     font-size: 1.5rem;
 }
 
+.c-main__download {
+    background: url('../../images/footer__background.png') center center
+        no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    padding: 2.5rem 0;
+    height: 70vh;
+}
+.c-main__download .c-download__title {
+    font-size: 2.5rem;
+}
+.c-main__download h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.c-main__download .c-download__cta {
+    margin-top: 2rem;
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -1,0 +1,30 @@
+@import "./variables";
+
+.c-main__download {
+    background: url("../../images/footer__background.png") center center no-repeat;
+    background-size: cover;
+
+    font-family: $titleFont;
+
+    justify-content: center;
+    align-items: center;
+    color: $imageTextColor;
+    text-align: center;
+    flex-direction: column;
+
+    padding: ($size * 5) 0;
+    height: 70vh;
+
+    .c-download__title {
+        font-size: $size * 5;
+    }
+
+    h4 {
+        font-weight: 500;
+        font-size: $size * 3;
+    }
+
+    .c-download__cta {
+        margin-top: $size * 4;
+    }
+}
