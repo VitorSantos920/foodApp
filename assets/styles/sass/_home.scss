@@ -1,17 +1,15 @@
 @import "./variables";
 
 .c-main__home {
+    align-items: center;
     background: url("../../images/banner.png") center center no-repeat;
     background-size: cover;
-    min-height: calc(100vh - 100px);
     color: $imageTextColor;
-    text-align: center;
-
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-
     font-family: $titleFont;
+    justify-content: center;
+    min-height: calc(100vh - 100px);
+    text-align: center;
 
     .c-home__app-name {
         font-size: $size * 3;

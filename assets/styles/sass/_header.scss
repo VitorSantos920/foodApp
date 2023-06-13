@@ -2,12 +2,12 @@
 
 .c-header {
     align-items: center;
+    font-family: $textFont;
+    font-size: $size * 2;
+    font-weight: bolder;
     justify-content: space-between;
     margin: 0 auto;
     width: 88%;
-    font-family: $textFont;
-    font-weight: bolder;
-    font-size: $size * 2;
 
     &__logo {
         height: 100px;

@@ -1,12 +1,12 @@
 @import "./variables";
 
 .c-footer {
-    justify-content: space-between;
     align-items: center;
-    font-family: $textFont;
     color: #5c5c5c;
-    font-weight: 700;
+    font-family: $textFont;
     font-size: $size * 1.5;
+    font-weight: 700;
+    justify-content: space-between;
 
     svg {
         height: 40px;
